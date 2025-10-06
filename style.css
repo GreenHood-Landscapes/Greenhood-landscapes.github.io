@@ -141,6 +141,12 @@ line-height:1.5;
     background:rgba(0,0,0,0.12);
     border-radius:10px}
 
+@media (max-width: 768px) {
+  .hero {
+    padding: 18px;
+  }
+}
+
 /* BUTTONS */
 .btn{
     display:inline-block;
@@ -440,26 +446,6 @@ line-height:1.5;
     transform:translateY(-4px);
     box-shadow:0 12px 26px rgba(43,134,165,0.12);
   }
-
-/* Responsive grid for mobile */
-@media (max-width: 480px) {
-  .hero-copy h1 {
-    font-size: 1.5rem;
-  }
-
-  .hero-copy .lead {
-    font-size: 0.9rem;
-  }
-
-  .service h3 {
-    font-size: 1rem;
-  }
-
-  .btn {
-    font-size: 0.9rem;
-    padding: 0.6rem 1rem;
-  }
-}
 
 /* ===== PROJECTS PAGE ===== */
 
