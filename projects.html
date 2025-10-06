@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | GreenHood Landscapes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">GH</div>
+        <div class="brand-text">
+          <div class="brand-name">GreenHood</div>
+          <div class="brand-tag">Landscapes • Sustainable design</div>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="projects-hero">
+    <h1>Our Projects</h1>
+    <p>Every project we design tells a story — one of sustainability, creativity, and harmony with nature.</p>
+  </section>
+
+  <!-- PROJECT GALLERY -->
+  <section class="projects-gallery">
+    <div class="container">
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="images/project1.jpg" alt="Urban Balcony Garden">
+          <div class="project-info">
+            <h3>Urban Balcony Garden</h3>
+            <p>A compact, low-water garden designed for a modern apartment balcony using vertical greens and native herbs.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/project2.jpg" alt="Terrace Green Oasis">
+          <div class="project-info">
+            <h3>Terrace Green Oasis</h3>
+            <p>Transformed a concrete terrace into a lush space with fruit plants, shade climbers, and an efficient rainwater system.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/project3.jpg" alt="Community Garden Revamp">
+          <div class="project-info">
+            <h3>Community Garden Revamp</h3>
+            <p>Revitalized a local park with native flowering species and soil composting areas to promote biodiversity.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/project4.jpg" alt="Eco Villa Landscape">
+          <div class="project-info">
+            <h3>Eco Villa Landscape</h3>
+            <p>An extensive green design featuring drought-tolerant plants, greywater irrigation, and natural stone pathways.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="projects-cta">
+    <h2>Have a Vision for Your Space?</h2>
+    <p>Let’s bring it to life — sustainably.</p>
+    <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>GreenHood Landscapes</strong>
+        <div class="footer-contact-info">
+          <p>123 Green Lane</p>
+          <p>Your City</p>
+          <p>+91 98765 43210</p>
+          <p>hello@greenhood.example</p>
+        </div>
+        <div class="footer-socials">
+          <a href="#" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+          <a href="#" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+          <a href="#" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+          <a href="#" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">© <span id="year"></span> GreenHood. All rights reserved.</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+  <script src="https://kit.fontawesome.com/a2e0e9e1a7.js" crossorigin="anonymous"></script>
+</body>
+</html>
