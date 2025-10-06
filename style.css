@@ -434,9 +434,22 @@ line-height:1.5;
   }
 
 /* Responsive grid for mobile */
-@media (max-width: 768px) {
-  .project-grid {
-    grid-template-columns: 1fr;
+@media (max-width: 480px) {
+  .hero-copy h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-copy .lead {
+    font-size: 0.9rem;
+  }
+
+  .service h3 {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
   }
 }
 
